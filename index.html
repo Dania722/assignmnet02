@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamza's Search Engine</title>
+</head>
+<body>
+  <h1>   Assignment no 02 </h1>
+    <div class="container">
+        <div class="search-by">
+            <label for="category">Search By: </label>
+            <select name="category" id="category">
+                <option value="Search by" disabled selected>Search by</option>
+                <option value="userId">userId</option>
+                <option value="id">id</option>
+                <option value="title">title</option>
+                <option value="body">body</option>
+              </select>
+              <div class="input">
+                <input type="search" id="search">
+                <input type="button" id="btn" value="submit" onclick="search()">
+            </div>
+            <div>
+                <h2>Check Console</h2>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
